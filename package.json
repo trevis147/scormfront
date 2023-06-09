@@ -3,9 +3,19 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "@zip.js/zip.js": "^2.7.14",
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "jszip": "^3.10.1",
+    "pipwerks-scorm-api-wrapper": "^0.1.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-html-parser": "^2.0.2",
+    "react-scorm-provider": "^0.2.4",
+    "react-scripts": "5.0.1",
+    "scorm-api-wrapper": "^0.0.2",
+    "tszip": "^1.0.0",
+    "unzipper": "^0.10.14"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -27,5 +37,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "buffer": "^6.0.3",
+    "path-browserify": "^1.0.1",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.5"
   }
 }
