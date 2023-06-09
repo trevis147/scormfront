@@ -13,7 +13,7 @@ class Player extends React.Component {
     return (
       <div>
         <iframe
-          src="http://191.101.235.159:8090"
+          src="https://scorm-rose.vercel.app/genially.html"
           height="300"
           width="100%"
         />
